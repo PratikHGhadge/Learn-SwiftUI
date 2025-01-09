@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F312A7A82D2C643F00B82AFA /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312A7A72D2C643F00B82AFA /* VerticalScrollView.swift */; };
+		F312A7AA2D2C656E00B82AFA /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312A7A92D2C656E00B82AFA /* HorizontalScrollView.swift */; };
+		F312A7AC2D2C680500B82AFA /* LazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312A7AB2D2C680500B82AFA /* LazyVGrid.swift */; };
+		F312A7AE2D2C6A5F00B82AFA /* LazyHGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312A7AD2D2C6A5F00B82AFA /* LazyHGrid.swift */; };
+		F35A30822D2EED8F00CD7D90 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35A30812D2EED8F00CD7D90 /* Form.swift */; };
+		F35A30842D2EF2FD00CD7D90 /* SerchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35A30832D2EF2FD00CD7D90 /* SerchBar.swift */; };
+		F35A30862D2EFB4200CD7D90 /* ToggleBulb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35A30852D2EFB4200CD7D90 /* ToggleBulb.swift */; };
+		F35B11A82D2D9A700097CD64 /* AlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B11A72D2D9A700097CD64 /* AlignmentGuide.swift */; };
+		F35B11AA2D2DA2CB0097CD64 /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B11A92D2DA2CB0097CD64 /* GeometryReader.swift */; };
+		F35B11AC2D2DA9390097CD64 /* CounterAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B11AB2D2DA9390097CD64 /* CounterAppView.swift */; };
+		F35B11AE2D2DAC880097CD64 /* ToggleUsingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B11AD2D2DAC880097CD64 /* ToggleUsingState.swift */; };
 		F39CB4F22D2A8B89001A594E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39CB4F12D2A8B89001A594E /* Profile.swift */; };
+		F3A319982D2AFD8500D11B89 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A319972D2AFD8500D11B89 /* Hike.swift */; };
+		F3A3199A2D2AFE3700D11B89 /* HikeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A319992D2AFE3700D11B89 /* HikeList.swift */; };
 		F3A3CD452D29C099004A3842 /* UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A3CD442D29C099004A3842 /* UIComponents.swift */; };
 		F3A4AC1F2D24909B002C63BE /* FundamentalsOfSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4AC1E2D24909B002C63BE /* FundamentalsOfSwiftUiApp.swift */; };
 		F3A4AC212D24909B002C63BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4AC202D24909B002C63BE /* ContentView.swift */; };
@@ -16,7 +29,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F312A7A72D2C643F00B82AFA /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
+		F312A7A92D2C656E00B82AFA /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
+		F312A7AB2D2C680500B82AFA /* LazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid.swift; sourceTree = "<group>"; };
+		F312A7AD2D2C6A5F00B82AFA /* LazyHGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGrid.swift; sourceTree = "<group>"; };
+		F35A30812D2EED8F00CD7D90 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		F35A30832D2EF2FD00CD7D90 /* SerchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerchBar.swift; sourceTree = "<group>"; };
+		F35A30852D2EFB4200CD7D90 /* ToggleBulb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBulb.swift; sourceTree = "<group>"; };
+		F35B11A72D2D9A700097CD64 /* AlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide.swift; sourceTree = "<group>"; };
+		F35B11A92D2DA2CB0097CD64 /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
+		F35B11AB2D2DA9390097CD64 /* CounterAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppView.swift; sourceTree = "<group>"; };
+		F35B11AD2D2DAC880097CD64 /* ToggleUsingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleUsingState.swift; sourceTree = "<group>"; };
 		F39CB4F12D2A8B89001A594E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F3A319972D2AFD8500D11B89 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		F3A319992D2AFE3700D11B89 /* HikeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeList.swift; sourceTree = "<group>"; };
 		F3A3CD442D29C099004A3842 /* UIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponents.swift; sourceTree = "<group>"; };
 		F3A4AC1B2D24909B002C63BE /* FundamentalsOfSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FundamentalsOfSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A4AC1E2D24909B002C63BE /* FundamentalsOfSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundamentalsOfSwiftUiApp.swift; sourceTree = "<group>"; };
@@ -61,6 +87,19 @@
 				F3A4AC242D24909D002C63BE /* Preview Content */,
 				F3A3CD442D29C099004A3842 /* UIComponents.swift */,
 				F39CB4F12D2A8B89001A594E /* Profile.swift */,
+				F3A319972D2AFD8500D11B89 /* Hike.swift */,
+				F3A319992D2AFE3700D11B89 /* HikeList.swift */,
+				F312A7A72D2C643F00B82AFA /* VerticalScrollView.swift */,
+				F312A7A92D2C656E00B82AFA /* HorizontalScrollView.swift */,
+				F312A7AB2D2C680500B82AFA /* LazyVGrid.swift */,
+				F312A7AD2D2C6A5F00B82AFA /* LazyHGrid.swift */,
+				F35B11A72D2D9A700097CD64 /* AlignmentGuide.swift */,
+				F35B11A92D2DA2CB0097CD64 /* GeometryReader.swift */,
+				F35B11AB2D2DA9390097CD64 /* CounterAppView.swift */,
+				F35B11AD2D2DAC880097CD64 /* ToggleUsingState.swift */,
+				F35A30812D2EED8F00CD7D90 /* Form.swift */,
+				F35A30832D2EF2FD00CD7D90 /* SerchBar.swift */,
+				F35A30852D2EFB4200CD7D90 /* ToggleBulb.swift */,
 			);
 			path = FundamentalsOfSwiftUi;
 			sourceTree = "<group>";
@@ -143,9 +182,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A319982D2AFD8500D11B89 /* Hike.swift in Sources */,
+				F312A7AA2D2C656E00B82AFA /* HorizontalScrollView.swift in Sources */,
+				F35A30822D2EED8F00CD7D90 /* Form.swift in Sources */,
+				F35A30842D2EF2FD00CD7D90 /* SerchBar.swift in Sources */,
+				F35B11AA2D2DA2CB0097CD64 /* GeometryReader.swift in Sources */,
 				F3A4AC212D24909B002C63BE /* ContentView.swift in Sources */,
+				F35A30862D2EFB4200CD7D90 /* ToggleBulb.swift in Sources */,
+				F35B11AE2D2DAC880097CD64 /* ToggleUsingState.swift in Sources */,
+				F35B11AC2D2DA9390097CD64 /* CounterAppView.swift in Sources */,
 				F39CB4F22D2A8B89001A594E /* Profile.swift in Sources */,
 				F3A3CD452D29C099004A3842 /* UIComponents.swift in Sources */,
+				F3A3199A2D2AFE3700D11B89 /* HikeList.swift in Sources */,
+				F312A7AC2D2C680500B82AFA /* LazyVGrid.swift in Sources */,
+				F312A7A82D2C643F00B82AFA /* VerticalScrollView.swift in Sources */,
+				F312A7AE2D2C6A5F00B82AFA /* LazyHGrid.swift in Sources */,
+				F35B11A82D2D9A700097CD64 /* AlignmentGuide.swift in Sources */,
 				F3A4AC1F2D24909B002C63BE /* FundamentalsOfSwiftUiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

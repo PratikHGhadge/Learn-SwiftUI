@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct FundamentalsOfSwiftUiApp: App {
     
+    @StateObject private var appState = AppState()
+    
     init() {
         // Perform setup tasks here
         print("Perform setup tasks here")
@@ -18,9 +20,19 @@ struct FundamentalsOfSwiftUiApp: App {
     @Environment(\.scenePhase) private var scenePhase
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-//            UIComponents()
-            Profile()
+            NavigationStack{
+                //            ContentView()
+                //            UIComponents()
+                //            Profile()
+                //            HikeList()
+                //            VerticalScrollView()
+                //            HorizontalScrollView()
+                //            LazyVGridView()
+                //            LazyHGridView()
+                //                SerchBarView()
+                //                FormView()
+                ToggleBulbView().environmentObject(appState)
+            }
         }
         .onChange(of: scenePhase) { newPhase in
             switch newPhase {
